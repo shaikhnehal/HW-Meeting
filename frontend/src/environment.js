@@ -1,8 +1,8 @@
-// let IS_PROD = true;
-// const server = IS_PROD ?
-//     // "https://apnacollegebackend.onrender.com" :
+let IS_PROD = true;
+const server = IS_PROD ?
+    "https://hw-meeting.onrender.com" :
 
-//     // "http://localhost:8000"
+    "http://localhost:8000"
 
 
-// export default server;
+export default server;
